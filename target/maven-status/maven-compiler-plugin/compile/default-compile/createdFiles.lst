@@ -1,0 +1,5 @@
+BaseTest\BaseTest.class
+InterfacePages\SignInPage.class
+InterfacePages\HomePage.class
+InterfacePages\AccountPage.class
+InterfacePages\Variables.class

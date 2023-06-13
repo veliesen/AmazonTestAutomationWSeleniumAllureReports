@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="22" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-13T11:27:33 TRT" name="Surefire suite" finished-at="2023-06-13T11:30:25 TRT" duration-ms="171246">
+    <groups>
+    </groups>
+    <test started-at="2023-06-13T11:27:33 TRT" name="Surefire test" finished-at="2023-06-13T11:30:25 TRT" duration-ms="171246">
+      <class name="AccountPageTest">
+        <test-method is-config="true" signature="setUpAmazon()[pri:0, instance:AccountPageTest@2eb79cbe]" started-at="2023-06-13T11:27:33 TRT" name="setUpAmazon" finished-at="2023-06-13T11:27:39 TRT" duration-ms="5413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAmazon -->
+        <test-method signature="TC0015()[pri:0, instance:AccountPageTest@2eb79cbe]" started-at="2023-06-13T11:27:39 TRT" name="TC0015" description="TC0015 PASS- Check Account Section and Navigate to Account Creation Page" finished-at="2023-06-13T11:27:43 TRT" duration-ms="4314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0015 -->
+        <test-method signature="TC0016()[pri:0, instance:AccountPageTest@2eb79cbe]" started-at="2023-06-13T11:27:43 TRT" name="TC0016" description="TC0016 PASS- Clear The Form to Create New Account, Fill NameSurname and ClickOn Create Account, Check Warning Text" finished-at="2023-06-13T11:27:48 TRT" duration-ms="4383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0016 -->
+        <test-method signature="TC0017()[pri:0, instance:AccountPageTest@2eb79cbe]" started-at="2023-06-13T11:27:48 TRT" name="TC0017" description="TC0017 PASS- Clear The Form to Create New Account, Fill Email and NameSurname, ClickOn Create Account, Check Warning Text" finished-at="2023-06-13T11:27:52 TRT" duration-ms="4347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0017 -->
+        <test-method signature="TC0018()[pri:0, instance:AccountPageTest@2eb79cbe]" started-at="2023-06-13T11:27:52 TRT" name="TC0018" description="TC0018 PASS- Clear The Form to Create New Account, Fill Email, NameSurname,Password, ClickOn Create Account, Check Warning Text" finished-at="2023-06-13T11:27:56 TRT" duration-ms="4438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0018 -->
+        <test-method is-config="true" signature="closeAmazon()[pri:0, instance:AccountPageTest@2eb79cbe]" started-at="2023-06-13T11:30:20 TRT" name="closeAmazon" finished-at="2023-06-13T11:30:25 TRT" duration-ms="4510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAmazon -->
+      </class> <!-- AccountPageTest -->
+      <class name="HomePageTest">
+        <test-method signature="TC0001()[pri:0, instance:HomePageTest@11a7ba62]" started-at="2023-06-13T11:27:56 TRT" name="TC0001" description="TC0001 PASS- Hover on Account Section and Checks Text" finished-at="2023-06-13T11:28:00 TRT" duration-ms="3298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0001 -->
+        <test-method signature="TC0002()[pri:0, instance:HomePageTest@11a7ba62]" started-at="2023-06-13T11:28:00 TRT" name="TC0002" description="TC0002 PASS- Click on SignIn Button On Hover And Checks The Text On SignIn Page" finished-at="2023-06-13T11:28:07 TRT" duration-ms="7598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0002 -->
+        <test-method signature="TC0003()[pri:0, instance:HomePageTest@11a7ba62]" started-at="2023-06-13T11:28:07 TRT" name="TC0003" description="TC0003 PASS- Click On ReturnAndOrders Section And Checks The Text On SignIn Page" finished-at="2023-06-13T11:28:12 TRT" duration-ms="4866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0003 -->
+        <test-method signature="TC0004()[pri:0, instance:HomePageTest@11a7ba62]" started-at="2023-06-13T11:28:12 TRT" name="TC0004" description="TC0004 PASS- Click On Location Section, Checks The Text On PopUp And Click On Button &#039;ClickOnToViewYourAddress&#039;, Check Text On SignIn Page" finished-at="2023-06-13T11:28:19 TRT" duration-ms="6819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0004 -->
+        <test-method signature="TC0005()[pri:0, instance:HomePageTest@11a7ba62]" started-at="2023-06-13T11:28:19 TRT" name="TC0005" description="TC0005 PASS- Click On Categories, Checks the Text In" finished-at="2023-06-13T11:28:23 TRT" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0005 -->
+        <test-method signature="TC0006()[pri:0, instance:HomePageTest@11a7ba62]" started-at="2023-06-13T11:28:23 TRT" name="TC0006" description="TC0006 PASS- Check Product" finished-at="2023-06-13T11:28:29 TRT" duration-ms="6317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0006 -->
+        <test-method signature="TC0007()[pri:0, instance:HomePageTest@11a7ba62]" started-at="2023-06-13T11:28:29 TRT" name="TC0007" description="TC0007 PASS- Add Product To Cart And Delete Product" finished-at="2023-06-13T11:28:51 TRT" duration-ms="22143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0007 -->
+      </class> <!-- HomePageTest -->
+      <class name="SignInTest">
+        <test-method signature="TC0008()[pri:0, instance:SignInTest@340b7ef6]" started-at="2023-06-13T11:28:51 TRT" name="TC0008" description="TC0008 PASS- Checks the SignIn Condition, Click On The SignIn Button and Check The SignIn Page Text" finished-at="2023-06-13T11:29:02 TRT" duration-ms="10892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0008 -->
+        <test-method signature="TC0009()[pri:0, instance:SignInTest@340b7ef6]" started-at="2023-06-13T11:29:02 TRT" name="TC0009" description="TC0009 PASS- Unsuccessful Email Entry And ClickOn SignIn Button ,Check The Warning Text" finished-at="2023-06-13T11:29:12 TRT" duration-ms="10398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0009 -->
+        <test-method signature="TC0010()[pri:0, instance:SignInTest@340b7ef6]" started-at="2023-06-13T11:29:12 TRT" name="TC0010" description="TC0010 PASS- Successful Email Entry And Check the Text On Password Page" finished-at="2023-06-13T11:29:23 TRT" duration-ms="11046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0010 -->
+        <test-method signature="TC0011()[pri:0, instance:SignInTest@340b7ef6]" started-at="2023-06-13T11:29:23 TRT" name="TC0011" description="TC0011 PASS- Unsuccessful Password Entry and Check Warning Text" finished-at="2023-06-13T11:29:35 TRT" duration-ms="12062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0011 -->
+        <test-method signature="TC0012()[pri:0, instance:SignInTest@340b7ef6]" started-at="2023-06-13T11:29:35 TRT" name="TC0012" description="TC0012 PASS- Successful SignIn Check the Text On Account Section" finished-at="2023-06-13T11:29:49 TRT" duration-ms="13736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0012 -->
+        <test-method signature="TC0013()[pri:0, instance:SignInTest@340b7ef6]" started-at="2023-06-13T11:29:49 TRT" name="TC0013" description="TC0013 PASS-Add Product To Cart, Check the Text" finished-at="2023-06-13T11:30:16 TRT" duration-ms="26518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0013 -->
+        <test-method signature="TC0014()[pri:0, instance:SignInTest@340b7ef6]" started-at="2023-06-13T11:30:16 TRT" name="TC0014" description="TC0014 PASS- Successful SignedIn Page,Successful SignOut" finished-at="2023-06-13T11:30:20 TRT" duration-ms="4400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC0014 -->
+      </class> <!-- SignInTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

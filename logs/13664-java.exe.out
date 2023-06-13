@@ -1,0 +1,66 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 2414milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2414"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 63807"}
+{"logLevel":"info","message":"Listening on port:63807"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'InterfacePages.HomePage.hoverCheckAccountSection' and 'StepImplementation.hoverCheckAccountSection'"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.hoverCheckAccountSection' and 'StepImplementation.hoverCheckAccountSection'"}
+{"logLevel":"debug","message":"Found Checks Text in Account Section on Hover in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tChecks the text on SignIn Page : public HomePage checkTextSignIn()"}
+{"logLevel":"debug","message":"\tClick On Product Descriptiom : public HomePage clickOnProductDescription()"}
+{"logLevel":"debug","message":"\tChecks Text in Account Section on Hover : public HomePage hoverCheckAccountSection()"}
+{"logLevel":"debug","message":"\tCheck Whether The Cart Is Deleted  Or Not : public HomePage checkEmptyCart()"}
+{"logLevel":"debug","message":"\tClear Name And Surname Section : public AccountPage clearGeneratedText()"}
+{"logLevel":"debug","message":"\tCheck Whether The Product Is Added To Cart Or Not : public HomePage checkCart()"}
+{"logLevel":"debug","message":"\tClick On View Pagee : public SignInPage clickOnViewCart()"}
+{"logLevel":"debug","message":"\tClick On Confirm Account Button : public AccountPage clickOnConfirmAccount()"}
+{"logLevel":"debug","message":"\tFill Password Section With Generated Text : public AccountPage fillPasswordAccount(String generatedText)"}
+{"logLevel":"debug","message":"\tChecks Warning Text After Empty Mail : public SignInPage checkEmailWarningText()"}
+{"logLevel":"debug","message":"\tClick On Add To Cart Button : public HomePage clickOnAddToCartButton()"}
+{"logLevel":"debug","message":"\tClick On Create Account  : public AccountPage navigateAccountCreate(String element)"}
+{"logLevel":"debug","message":"\tCheck The Product : public HomePage checkProduct()"}
+{"logLevel":"debug","message":"\tFill Password With Random Generated String Value : public SignInPage fillPasswordGeneratedValue()"}
+{"logLevel":"debug","message":"\tClear Text Email Section : public AccountPage clearEmailAccount()"}
+{"logLevel":"debug","message":"\tClicks on ReturnsAndOrders Section : public HomePage clickOnReturnAndOrders()"}
+{"logLevel":"debug","message":"\tClick Sign Out On Hover Account : public SignInPage clickOnSignOut()"}
+{"logLevel":"debug","message":"\tClick on Categories : public HomePage clickOnCategories()"}
+{"logLevel":"debug","message":"\tNavigate Previous Page : public SignInPage navigateBack()"}
+{"logLevel":"debug","message":"\tClear Password Section : public AccountPage clearPassword()"}
+{"logLevel":"debug","message":"\tClicks On Forward To Cart To Check The Cart : public HomePage clickOnGoToCart()"}
+{"logLevel":"debug","message":"\tChecks Account Page Text : public AccountPage checkAccountPage()"}
+{"logLevel":"debug","message":"\tClick On SignIn Button : public SignInPage clickOnSignIn()"}
+{"logLevel":"debug","message":"\tClear The Email Tab : public SignInPage clearEmail()"}
+{"logLevel":"debug","message":"\tFill Email Section With Valid : public AccountPage fillEmailAccount(String generatedText)"}
+{"logLevel":"debug","message":"\tClick on Button 'Check Your Address' : public HomePage clickOnAddressButton()"}
+{"logLevel":"debug","message":"\tFill the Name Section : public AccountPage fillNameSurname(String generatedText)"}
+{"logLevel":"debug","message":"\tChecks The Account Name : public SignInPage checkAccountName()"}
+{"logLevel":"debug","message":"\tCheck Email Warning Text  : public AccountPage checkApEmailWarningText()"}
+{"logLevel":"debug","message":"\tFills The Email With Valid Value : public SignInPage fillEmail()"}
+{"logLevel":"debug","message":"\tFills the Password With Valid Value : public SignInPage fillPasswordValid()"}
+{"logLevel":"debug","message":"\tClicks On The Buy Box Button : public SignInPage clickOnContinue()"}
+{"logLevel":"debug","message":"\tCheck Product By ASIN : public HomePage enterASIN()"}
+{"logLevel":"debug","message":"\tClick On Create Account Button : public AccountPage clickOnCreateAccountButton()"}
+{"logLevel":"debug","message":"\tClicks on Location Section : public HomePage clickOnLocation()"}
+{"logLevel":"debug","message":"\tCheck Text in Categories : public HomePage checkTextInCategories()"}
+{"logLevel":"debug","message":"\tEmpty Cart : public HomePage emptyCart()"}
+{"logLevel":"debug","message":"\tClick On Search Button : public HomePage clickOnSearch()"}
+{"logLevel":"debug","message":"\tChecks Order Summary : public SignInPage checksOrderSummary()"}
+{"logLevel":"debug","message":"\tChecks Warning Text On AcoountPage After Wrong Password : public SignInPage checkWarningAccount()"}
+{"logLevel":"debug","message":"\tClicks SignIn Button On Hover : public HomePage hoverClickOnSign()"}
+{"logLevel":"debug","message":"\tChecks The Text On Location PopUp : public HomePage checkLocationInfo()"}
+{"logLevel":"debug","message":"\tClick On Baby in Categories : public HomePage clickOnBabyCategory()"}
+{"logLevel":"debug","message":"\tCheck Password Warning Text  : public AccountPage checkPasswordWarningText()"}
+{"logLevel":"debug","message":"\tClear ASIN : public HomePage clearASIN()"}
+{"logLevel":"debug","message":"\tClicks on Sign In Button : public SignInPage clickContinue()"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
